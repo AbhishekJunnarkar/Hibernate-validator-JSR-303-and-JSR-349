@@ -7,7 +7,14 @@ Hibernate Validator is reference implementation of JSR 303 and JSR 349
 
 ### Step 0: (Prerequisite): No arg constructor for the Beans
 
-In order for spring to use the binding, the spring expects a no argument constructor
+In order for spring to use the binding, the spring expects a no argument constructor.
+
+The concept is Double Binding
+
+i.e. The bean is bound to the form and vice versa, hence called as double binding.
+
+* This simply means if the bean is updated from backend the form will load the value and 
+* If the form is loaded/updated/deleted(e.g.table row) form the front end the bean will also have the updated value
 
 ### Step 1: Model attribute or form backed Bean
   In the JSP, make the bean a model attribute
