@@ -47,7 +47,7 @@ e.g. <form:errors path="desc" cssClass="text-warning" /> in the jsp
 	}
 ### Step 4: Display Error in the View
 
-![alt text](Hibernate validator simple Example01.PNG?raw=true "Validation message")
+![alt text](https://github.com/AbhishekJunnarkar/Hibernate-validator-JSR-303-and-JSR-349/blob/master/Hibernate%20validator%20simple%20Example01.PNG?raw=true "Validation message")
 
 ## Appendix : Default built in javax.validation.constraints
 
